@@ -1,2 +1,3 @@
-# trivia
-Integração Trivia Game/REMAR - PIBIC (Guilherme Salomão) 
+Integração Trivia Game / Plataforma REMAR
+
+Desenvolvido durante o PIBIC (Guilherme Salomão) 
