@@ -35,9 +35,9 @@
                                 <button style="margin-left: 3px; background-color: #795548" class="btn-floating " id="BtnUnCheckAll" onclick="uncheck_all()"><i  class="material-icons">done</i></button>
                             </div>
                         </th>
-                        <th style="cursor: pointer;" onclick="sortTableByName()" id="statementLabel">Pergunta <div class="row" style="margin-bottom: -10px;"><button  class="btn-floating" style="visibility: hidden"></button></div></th>
-                        <th style="cursor: pointer;" onclick="sortTableByAnswer()" id="answerLabel">Respostas <div class="row" style="margin-bottom: -10px;"><button  class="btn-floating" style="visibility: hidden"></button></div></th>
-                        <th style="cursor: pointer;" onclick="sortTableByCorrectAnswer()" id="correctAnswerLabel">Alternativa Correta <div class="row" style="margin-bottom: -10px;"><button  class="btn-floating" style="visibility: hidden"></button></div></th>
+                        <th style="cursor: pointer;" id="statementLabel">Pergunta <div class="row" style="margin-bottom: -10px;"><button  class="btn-floating" style="visibility: hidden"></button></div></th>
+                        <th style="cursor: pointer;" id="answerLabel">Respostas <div class="row" style="margin-bottom: -10px;"><button  class="btn-floating" style="visibility: hidden"></button></div></th>
+                        <th style="cursor: pointer;" id="correctAnswerLabel">Alternativa Correta <div class="row" style="margin-bottom: -10px;"><button  class="btn-floating" style="visibility: hidden"></button></div></th>
                         <th>Ações <div class="row" style="margin-bottom: -10px;"><button  class="btn-floating" style="visibility: hidden"></button></div></th>
                     </tr>
                     </thead>
