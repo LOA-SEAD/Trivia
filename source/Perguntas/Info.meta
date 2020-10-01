@@ -1,0 +1,6 @@
+{"total_perguntas":5,"tema":"tabuada","limite_erros":3}
+{"pergunta":"Qual é o resultado da multiplicação 3x9?","respostas":[[1,"21",0],[2,"27",1],[3,"18",0],[4,"15",0]]}
+{"pergunta":"Qual é o resultado da multiplicação 9x9?","respostas":[[1,"93",0],[2,"72",0],[3,"64",0],[4,"81",1]]}
+{"pergunta":"Qual é o resultado da multiplicação 4x5?","respostas":[[1,"15",0],[2,"25",0],[3,"16",0],[4,"20",1]]}
+{"pergunta":"Qual é o resultado da multiplicação 6x9?","respostas":[[1,"54",1],[2,"61",0],[3,"47",0],[4,"72",0]]}
+{"pergunta":"Qual é o resultado da multiplicação 2x7?","respostas":[[1,"15",0],[2,"14",1],[3,"17",1],[4,"13",1]]}

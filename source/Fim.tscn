@@ -1,0 +1,35 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://clickable.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Fim.gd" type="Script" id=2]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="Label" type="Label" parent="."]
+margin_left = 8.0
+margin_top = 8.0
+margin_right = 1016.0
+margin_bottom = 592.0
+text = "PARABENS VOCÊ ACERTOU TUDO"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="icon" parent="." instance=ExtResource( 1 )]
+position = Vector2( 224, 480 )
+
+[node name="Label2" type="Label" parent="."]
+margin_left = 288.0
+margin_top = 448.0
+margin_right = 360.0
+margin_bottom = 510.0
+text = "<-- Voltar ao inicio"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="clicked" from="icon" to="." method="_on_icon_clicked"]
